@@ -27,3 +27,9 @@ body {
    color: rgb(var(--foreground-rgb));
    @apply bg-gray-900 text-gray-100
 }
+
+
+.keen-slider__slide:hover footer,
+.keen-slider__slide:focus footer {
+   @apply translate-y-0 opacity-100;
+}
